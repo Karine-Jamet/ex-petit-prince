@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Niconne);
 html{
   margin:0;
   padding: 0;
@@ -7,11 +8,23 @@ body{
   padding: 0;
 }
 
+h1{
+ font-family: 'Niconne', cursive;
+ font-size: 50px;
+
+}
+
+.chap{
+  padding-top:  60px;
+  margin-top:  -60px;
+}
+
 .titre{
   background-color: lightblue;
   width: 100%;
   padding: 2%;
   padding-top: 4%;
+  position:relative;
 }
 
 @media screen and (max-width: 460px) {
@@ -40,4 +53,23 @@ h2{
 
 .dial {
   list-style: none;
+}
+
+.ptPrince{
+  position: absolute;
+  right:0;
+  top:55px;
+  height: 70%;
+
+
+}
+
+span{
+  color:lightblue;
+  float:left;
+}
+
+.glyphicon.glyphicon-globe {
+    font-size: 50px;
+    padding-right: 10px;
 }
