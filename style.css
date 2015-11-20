@@ -25,3 +25,19 @@ h2{
   color: lightblue;
   padding-left: 30px;
 }
+
+.chap ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dial:before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e234";
+  position: relative;
+  top: 2px;
+}
+
+.dial {
+  list-style: none;
+}
