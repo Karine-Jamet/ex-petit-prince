@@ -1,75 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Niconne);
-html{
-  margin:0;
-  padding: 0;
-}
-body{
+html {
   margin: 0;
   padding: 0;
 }
-
-h1{
- font-family: 'Niconne', cursive;
- font-size: 50px;
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'Niconne', cursive;
+  font-size: 70px;
+}
+.col-sm-6{
+  padding-top: 20px;
 
 }
-
-.chap{
-  padding-top:  60px;
-  margin-top:  -60px;
+.chap {
+  padding-top: 60px;
+  margin-top: -60px;
 }
-
-.titre{
+.titre {
   background-color: lightblue;
   width: 100%;
   padding: 2%;
   padding-top: 4%;
-  position:relative;
+  position: relative;
 }
-
 @media screen and (max-width: 460px) {
-      h3 {
-        display: none;
-      }
+  h3 {
+    display: none;
+  }
 }
-
-h2{
+h2 {
   background-color: black;
   color: lightblue;
   padding-left: 30px;
 }
-
 .chap ul {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
-.dial:before{
+.dial:before {
   font-family: 'Glyphicons Halflings';
   content: "\e234";
   position: relative;
   top: 2px;
 }
-
 .dial {
   list-style: none;
 }
-
-.ptPrince{
+.ptPrince {
   position: absolute;
-  right:0;
-  top:55px;
+  right: 0;
+  top: 55px;
   height: 70%;
-
-
 }
-
-span{
-  color:lightblue;
-  float:left;
+span {
+  color: lightblue;
+  float: left;
 }
-
 .glyphicon.glyphicon-globe {
-    font-size: 50px;
-    padding-right: 10px;
+  font-size: 50px;
+  padding-right: 10px;
 }
