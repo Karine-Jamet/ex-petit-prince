@@ -23,5 +23,17 @@ body{
 h2{
   background-color: black;
   color: lightblue;
-  padding-left: 20px;
+  padding-left: 30px;
+}
+
+@media screen and (min-width: 460px) {
+  .1erLigne{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .2emLigne{
+    display: none;
+  }
 }
